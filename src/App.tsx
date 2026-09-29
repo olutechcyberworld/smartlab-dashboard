@@ -8,6 +8,7 @@ import { Layout }          from '@/components/Layout'
 import Login               from '@/pages/Login'
 import Attendance          from '@/pages/Attendance'
 import Students            from '@/pages/Students'
+import Courses             from '@/pages/Courses'
 import Sessions            from '@/pages/Sessions'
 import Devices             from '@/pages/Devices'
 
@@ -36,6 +37,7 @@ export default function App() {
                 <Route index                element={<Navigate to="/attendance" replace />} />
                 <Route path="/attendance"   element={<Attendance />} />
                 <Route path="/students"     element={<Students />} />
+                <Route path="/courses"      element={<Courses />} />
                 <Route path="/sessions"     element={<Sessions />} />
                 <Route path="/devices"      element={<Devices />} />
               </Route>

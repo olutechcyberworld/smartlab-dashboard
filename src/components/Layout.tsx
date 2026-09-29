@@ -3,6 +3,7 @@ import {
   Fingerprint,
   ClipboardList,
   Users,
+  BookOpen,
   CalendarDays,
   MonitorDot,
   LogOut,
@@ -13,6 +14,7 @@ import { useAuth }  from '@/hooks/useAuth'
 const NAV_ITEMS = [
   { to: '/attendance', label: 'Attendance', icon: ClipboardList },
   { to: '/students',   label: 'Students',   icon: Users },
+  { to: '/courses',    label: 'Courses',    icon: BookOpen },
   { to: '/sessions',   label: 'Sessions',   icon: CalendarDays },
   { to: '/devices',    label: 'Devices',    icon: MonitorDot },
 ] as const
